@@ -1,19 +1,20 @@
 ls [选项] [路径]  查看目录内容
 
   -a 显示隐藏
-
   
   -l 列表显示
-
   
       -h显示文件大小的单位（需和-l搭配使用）
 
-cd [路径]  切换工作目录
+cd [路径]  切换工作目录    
 pwd  查看当前工作目录
 
 touch 创建空文件
+
   例：touch /home/geng/note.txt
+  
         （在路径/home/geng的目录下创建note.txt文件）
+
 mkdir [选项]  创建目录
     -p 创建多层目录
   例：mkdir -p /home/geng/目录1/目录2
